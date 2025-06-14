@@ -17,3 +17,14 @@ function updateDate() {
 
 updateDate(); // Call the function to display the date
 console.log("Date updated.");
+
+
+const menuButton = document.querySelector(".hamburger");
+const menu = document.querySelector(".menubar");
+
+menuButton.onclick = function () {
+  menu.classList.toggle("active");
+  menuButton.classList.toggle("hamburger-active");
+};
+
+
