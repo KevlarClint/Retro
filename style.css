@@ -8,7 +8,7 @@
 body {
   font-family: "Montserrat", sans-serif;
   background-color: #ffece9;
-  background: url("assets/jason-low-3mC1RbrkViE-unsplash.jpg") center/cover
+  background: url("Assets/jason-low-3mC1RbrkViE-unsplash.jpg") center/cover
     no-repeat;
   background-attachment: fixed;
 
@@ -23,7 +23,7 @@ body {
   font-weight: 900;
   font-size: 15rem;
   line-height: 0.65;
-  background: url("assets/jason-low-3mC1RbrkViE-unsplash.jpg") center/cover
+  background: url("Assets/jason-low-3mC1RbrkViE-unsplash.jpg") center/cover
     no-repeat fixed;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
