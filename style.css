@@ -1,0 +1,109 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  /* outline: 3px solid blueviolet; */
+}
+
+body {
+  font-family: "Montserrat", sans-serif;
+  background-color: #ffece9;
+  background: url("assets/jason-low-3mC1RbrkViE-unsplash.jpg") center/cover
+    no-repeat;
+  background-attachment: fixed;
+
+  @media (min-width: 1024px) {
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 60% 60%;
+  }
+}
+
+.retro-text {
+  font-weight: 900;
+  font-size: 15rem;
+  line-height: 0.65;
+  background: url("assets/jason-low-3mC1RbrkViE-unsplash.jpg") center/cover
+    no-repeat fixed;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  color: transparent;
+
+  @media (min-width: 1024px) {
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 60% 60%;
+  }
+}
+
+
+
+.here {
+  background-color: #fcae05;
+  color: #2f2f2f; /* deep charcoal gray */
+  letter-spacing: 0.05em;
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+
+.info {
+  display: flex;
+  gap: 30px;
+  color: #333;
+  font-size: 0.9rem;
+  line-height: 1.3;
+  margin-left: 20px;
+
+  span:nth-child(1) {
+    margin-top: 30px;
+  }
+  span:nth-child(2) {
+    margin-top: 20px;
+  }
+  span:nth-child(3) {
+    margin-top: 30px;
+  }
+  span:nth-child(4) {
+    margin-top: 10px;
+  }
+  span:nth-child(5) {
+    margin-top: 30px;
+  }
+}
+
+.info span {
+  display: flex;
+  flex-direction: column;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    padding: 25px;
+
+    & img {
+        width: 50px;
+        height: 50px;
+    }
+    & nav {
+        display: flex;
+        text-decoration: none;
+         list-style: none;
+         gap: 30px;
+         font-family: 1.4rem;
+
+         & li a {
+            text-decoration: none;
+            color: black;
+         }
+    }
+}
+
+.lower-test {
+    height: 50vh;
+}
